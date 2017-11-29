@@ -1,0 +1,36 @@
+{
+  "go.goroot": "/usr/local/go",
+  "go.gopath": "/Users/zeucxb/projects/golang/",
+  "editor.tabSize": 2,
+  "git.confirmSync": false,
+  "window.zoomLevel": 1,
+  "workbench.iconTheme": "vs-nomo-dark",
+  "workbench.colorTheme": "Material Palenight Italic",
+  "git.enableSmartCommit": true,
+  "go.autocompleteUnimportedPackages": true,
+  "go.inferGopath": true,
+  "eslint.autoFixOnSave": true,
+  "vim.hlsearch": true,
+  "editor.lineNumbers": "relative",
+  "editor.formatOnSave": true,
+  "macros": {
+    "save": [
+      "workbench.action.files.save",
+      "extension.vim_escape"
+    ]
+  },
+  "editor.minimap.enabled": false,
+  "elixir.useElixirSense": true,
+  "vim.useSystemClipboard": true,
+  "vim.statusBarColorControl": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  }
+}
