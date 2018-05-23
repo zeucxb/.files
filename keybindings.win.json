@@ -104,5 +104,9 @@
     "key": "alt+c",
     "command": "-gitlens.showQuickCommitFileDetails",
     "when": "editorTextFocus && gitlens:enabled"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "selectAll"
   }
 ]
