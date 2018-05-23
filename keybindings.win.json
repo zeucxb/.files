@@ -128,5 +128,10 @@
     "key": "ctrl+c",
     "command": "-extension.vim_ctrl+c",
     "when": "editorTextFocus && vim.active && vim.overrideCtrlC && vim.use<C-c> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "-extension.vim_ctrl+x",
+    "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
   }
 ]
