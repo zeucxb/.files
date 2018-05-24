@@ -70,10 +70,6 @@
     "command": "editor.action.peekTypeDefinition"
   },
   {
-    "key": "ctrl+shift+z",
-    "command": "workbench.action.toggleZenMode"
-  },
-  {
     "key": "ctrl+k z",
     "command": "-workbench.action.toggleZenMode"
   },
@@ -133,5 +129,15 @@
     "key": "ctrl+x",
     "command": "-extension.vim_ctrl+x",
     "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+abnt_c1",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+oem_2",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
