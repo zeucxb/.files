@@ -102,10 +102,6 @@
     "when": "editorTextFocus && gitlens:enabled"
   },
   {
-    "key": "ctrl+a",
-    "command": "selectAll"
-  },
-  {
     "key": "ctrl+v",
     "command": "editor.action.clipboardPasteAction",
     "when": "textInputFocus && !editorReadonly"
@@ -149,5 +145,10 @@
     "key": "ctrl+f",
     "command": "-extension.vim_ctrl+f",
     "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "-extension.vim_ctrl+a",
+    "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
   }
 ]
