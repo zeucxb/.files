@@ -155,5 +155,13 @@
     "key": "ctrl+b",
     "command": "-extension.vim_ctrl+b",
     "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "ctrl+shift+abnt_c1",
+    "command": "docthis.documentThis"
+  },
+  {
+    "key": "ctrl+alt+d ctrl+alt+d",
+    "command": "-docthis.documentThis"
   }
 ]
