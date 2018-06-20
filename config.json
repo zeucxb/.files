@@ -1,18 +1,14 @@
 {
-  "go.goroot": "/usr/local/go",
-  "go.gopath": "/Users/zeucxb/projects/golang/",
   "editor.tabSize": 2,
   "git.confirmSync": false,
-  "window.zoomLevel": 0,
-  "workbench.iconTheme": "eq-material-theme-icons",
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "window.zoomLevel": -1,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Cobalt2",
   "git.enableSmartCommit": true,
-  "go.autocompleteUnimportedPackages": true,
-  "go.inferGopath": true,
-  "eslint.autoFixOnSave": true,
+  "eslint.autoFixOnSave": false,
   "vim.hlsearch": true,
   "editor.lineNumbers": "relative",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "macros": {
     "save": [
       "workbench.action.files.save",
@@ -20,7 +16,6 @@
     ]
   },
   "editor.minimap.enabled": false,
-  "elixir.useElixirSense": true,
   "vim.useSystemClipboard": true,
   "vim.statusBarColorControl": true,
   "gitlens.advanced.messages": {
@@ -31,5 +26,9 @@
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.fontWeight": "500",
-  "gitlens.historyExplorer.enabled": true
+  "gitlens.historyExplorer.enabled": true,
+  "vim.disableExtension": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "editor.mouseWheelZoom": true
 }
