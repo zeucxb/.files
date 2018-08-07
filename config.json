@@ -30,5 +30,6 @@
   "vim.disableExtension": false,
   "explorer.confirmDragAndDrop": false,
   "git.autofetch": true,
-  "editor.mouseWheelZoom": true
+  "editor.mouseWheelZoom": true,
+  "editor.wordWrap": "on"
 }
