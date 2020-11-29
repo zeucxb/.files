@@ -1,0 +1,29 @@
+{
+    "editor.formatOnSave": true,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    "editor.lineNumbers": "relative",
+    "platformio-ide.disablePIOHomeStartup": true,
+    "files.exclude": {
+        "**/*.g.dart": true
+    },
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "dart.debugExternalLibraries": true,
+    "dart.debugSdkLibraries": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "tabnine.experimentalAutoImports": true,
+    "dart.lineLength": 150
+}
