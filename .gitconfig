@@ -16,5 +16,6 @@
 	ra = !git remote add
 	rao = !git remote add origin
 	pup = !git push --set-upstream
+	pupo = !git pup origin
 [push]
 	followTags = true
